@@ -1,4 +1,8 @@
 #### This function is based on the predict.bigglm function published by Christophe Dutang ########
+#### Major modifications include:
+#### 1, correct a typo se.fit() to se() in the original script;
+#### 2, take sqrt() of original "se";
+#### 3, enable the function to make point wise estimation of se
 
 predict.bigglmXM <- function(object, newdata, type = c("link", "response"),
                            se.fit = FALSE, make.function=FALSE, ...)
