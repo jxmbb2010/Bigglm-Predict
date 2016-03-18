@@ -1,3 +1,5 @@
+#### This function is based on the predict.bigglm function published by Christophe Dutang ########
+
 predict.bigglmXM <- function(object, newdata, type = c("link", "response"),
                            se.fit = FALSE, make.function=FALSE, ...)
 {
